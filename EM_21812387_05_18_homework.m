@@ -35,7 +35,7 @@ xd2 = [0 0 2 6*xx];
  R1_r = xs * [a1(5) a1(6) a1(7) a1(8)]';
  R1_r = subs(R1_r, xx, x_ary_r);
  
- %nutral spline
+ %% nutral spline
  R2_l = xs * [a2(1) a2(2) a2(3) a2(4)]';
  R2_l = subs(R2_l, xx, x_ary_l);
  R2_r = xs * [a2(5) a2(6) a2(7) a2(8)]';

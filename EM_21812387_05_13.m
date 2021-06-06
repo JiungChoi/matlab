@@ -70,14 +70,14 @@ for i= 1:1:c-1
 end
 
 %% BB2
-BB2 = zeros(c, c)
+BB2 = zeros(c, c);
 
 for i = 1:1:c
     for j = 1:1:c
         if j == 1
             BB2(i,j) = 1;
         elseif j<=i
-            BB2(i,j) = subs(AA2(j), x3, xs(i));
+            BB2(i,j) = subs(AA2(j), x3, xs(i))
         end
     end
 end
